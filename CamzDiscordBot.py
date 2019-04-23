@@ -11,5 +11,4 @@ async def on_ready():
 async def webhooks(ctx):
     await ctx.send('Webhooks are fun!')
 
-
-    bot.run(TOKEN)
+bot.run(TOKEN)
